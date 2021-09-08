@@ -1,0 +1,389 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.m{
+    position: absolute;
+    left:35%;
+    top:33%;
+    height:43%;
+    width:30%;
+    border:2px solid grey;
+    background-color: rgb(250, 250, 250); /* Black w/ opacity */
+    padding:25px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    z-index: 92;
+}
+.m input{
+    height:30px;
+    width:70%;
+    font-size: 14px;
+    margin-top: 13px;
+    display: inline-block;
+}
+.apply{
+    display: inline-block;
+    height:30px;
+    width:24%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.apply:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.m hr{
+    width:100%;
+}
+.m p{
+    color: grey;
+    font-size: 13px;
+}
+.m h6{
+    color: grey;
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: center;
+}
+.signin_btn{
+    border-radius: 7px;
+    border:1px solid #A88734;
+    height:30px;
+    width:100%;
+    font-size: 11px;
+    background-image:linear-gradient( #F4D380 40%,#EEBB3B)
+
+}
+.signin_btn:hover{
+    background-image:linear-gradient( #f3c85c 10%,#EEBB3B);
+    cursor: pointer;
+
+}
+.closed{
+    position: absolute;
+    top:17px;
+    right:35px;
+    border:none;
+
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.header{
+
+    position: sticky;
+    top:0px;
+    z-index: 90;
+}
+.tittlebar{
+    background-color: #231F20;
+    height:56px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    height: 40%;   
+    width:60%; 
+    box-sizing: border-box;
+    border:1px solid #231F20;
+
+}
+.logo:hover{
+    border:1px solid white;
+    cursor: pointer;
+
+}
+.hello{
+    margin-left:-148px ;
+    box-sizing: border-box;
+    height: 90%;
+    background-color: transparent;
+    color:white;
+    padding-top: 16px;
+    padding-left:0px;
+    padding-right:5px;
+    border:1px solid #231F20;
+    padding-top: 10px;
+
+}
+.hello:hover{
+    border:1px solid white;
+    cursor: pointer;
+
+}
+.hello p{
+    font-size: 14px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+.hello h5{
+    font-size: 13px;    
+    margin-left: 18px;
+    margin-top:-15px;
+}
+.fa-map-marker-alt{
+    margin-left: -20px;    
+    margin-right: 5px;
+}
+
+
+.textbox{   
+    background-color: white;
+    border-radius: 10px;
+    height:67%;
+    width:44%   ;
+    overflow: hidden;
+    color:yellow;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+}
+.select{
+    height:100%;
+    width:9%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #cccccc;
+}
+.select:hover{
+    background-color: rgb(177, 175, 175);
+    cursor: pointer;
+
+}
+.select:focus{
+    border:3px solid #FF9900;
+}
+select option{
+    width:300px;
+    background-color: white;
+}
+.inp{
+    height: 100%;
+    width:84%;
+    box-sizing: border-box;
+}
+.inp:focus{
+    border:none;
+
+    border:3px solid #FF9900;   
+}
+.inp:hover .textbox{
+    border:3px solid #FF9900;   
+
+}
+.search{
+    height:100%;
+    width:8%;
+    background-color: #e9ac3c;
+    font-size: 20px;
+    border:none;
+}
+.search:hover{
+    background-color: #cc952e;
+    cursor: pointer;
+
+}
+.search:focus{
+    border:3px solid #FF9900;
+}
+/* ////////////////// */
+.searched_items{
+    border:3px soild grey;
+    color:black;
+    background-color: white;
+    height:35px;
+    width:44%;
+    z-index: 96;
+    position: absolute;
+    top:85%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition-duration: 0.5;
+    padding-left: 0px;
+    list-style: none;
+}
+.textbox:hover > .searched_items{
+opacity: 1;
+cursor: pointer;
+}
+.textbox:hover{
+    border:3px solid #FF9900;
+    
+}
+.pro_name{
+    color:black;
+    font-size: 17px;
+    padding-left: 20px;
+
+}
+.pro_name:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.flagd{
+    border:1px solid #231F20;
+    box-sizing: border-box;
+    background-color: transparent;
+    height:90%;
+}
+.flagd:hover{
+    border:1px solid white;
+    cursor: pointer;
+
+
+}
+.flag{
+    height:30%;
+    width:27px;
+    margin-left: 8px;
+    margin-top:5px;
+}
+.flagd i{
+    margin-left: 6px;
+    font-size: 13px;
+    margin-top: 5px;
+    color:white;
+}
+/* //////model 2 */
+.m2{
+    position: absolute;
+    left:69%;
+    top:3%;
+    height:19%;
+    width:17%;
+    border:2px solid grey;
+    background-color: rgb(250, 250, 250); /* Black w/ opacity */
+    padding-left:-10px;
+    padding-top: 37px;
+    box-sizing: border-box;
+    z-index: 92;
+}
+.m2 button{
+    border:none;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.m2 ul{
+    list-style: none;
+}
+.m2 li{
+    margin-top: 8px;
+}
+.m2 button:hover{
+    color:#EFA462;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.closed2{
+    position: absolute;
+    top:26px;
+    right:15px;
+    border:none;
+
+}
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.hello2{
+    border:1px solid #231F20;
+    height:70%;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.hello2 p{
+    font-size: 12px;
+    margin-left: 6px;
+}
+.acc{
+    margin-top: -20px;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+.order{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+.hello2 i{
+    margin-left:4px;
+}
+.hello2:hover{
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.hello3{
+    border:1px solid #231F20;
+    height:70%;
+    width:87px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+.hello3 p{
+    font-size: 12px;
+    margin-left: 6px;
+}
+.hello3 h6{
+    font-size: 14px;
+
+}
+.hello3:hover{
+    border:1px solid white;
+    cursor: pointer;
+}
+.cart{
+    border:1px solid #231F20;
+
+    height:70%;
+    box-sizing: border-box;
+}
+.cart:hover{
+    border:1px solid white;
+
+}
+.cart i{
+    font-size: 23px;
+    margin-top:7px;
+    margin-left: 5px;
+
+}
+.carth5{
+    margin-left: 34px;
+    margin-top: -20px;  
+
+}

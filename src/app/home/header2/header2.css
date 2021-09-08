@@ -1,0 +1,41 @@
+.header2{
+    background-color: #232F3E;
+    height:43px;
+    width:100%;
+    color:white;
+    font-family: Arial;
+    display: flex;
+    z-index: -1;
+}
+.ul{
+    list-style: none;
+    margin-top: 5px;
+}
+.ul i{ 
+    margin-right:10px;
+    font-size: 24px;    
+}
+.ul li{
+    display: inline;
+    font-size: 13px;
+    border:1px solid  #232F3E;
+    box-sizing: border-box;
+    padding:5px;
+    margin-left: 20px;
+
+}
+.ul li:hover{
+    border:1px solid  white;
+    cursor: pointer;
+
+}
+.add{
+    height:90%;
+    width:30%;
+    margin-left: 111px;
+    border:1px solid #232F3E;
+}
+.add:hover{
+    border:1px solid white;
+    cursor: pointer;
+}

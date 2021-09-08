@@ -1,0 +1,92 @@
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.amazon{
+  margin-top: 6px;
+  
+  height:60px;
+  width: 140px;
+
+}
+.login{
+  border:1px solid lightgrey;
+  height:315px;
+  width:25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.email{
+  font-size: 13px;
+}
+.Uname{
+  width:100%;
+  border:1px solid grey;
+  height:33px;
+  border-radius: 3px;
+}
+.log{
+  width:100%;
+  background-image:linear-gradient( #F4D380 40%,#EEBB3B);
+  border:1px solid grey;
+  height:29px;
+}
+.log:hover{
+  background-image:linear-gradient( #F4D380 ,#EEBB3B);
+
+}
+.log:focus{
+  font-weight: bold;
+  border:1px solid orangered;
+
+}
+.line{
+  font-size: 12px;
+}
+.aa{
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 11px;
+  
+}
+.aa:hover{
+  text-decoration: underline;
+  color:orange;
+}
+.help{
+  text-decoration: none;
+  font-size: 14px;
+}
+.help:hover{
+  text-decoration: underline;
+  color:orange;
+}
+.new_acc{
+  text-align: center;
+  color:grey;
+  font-size: 15px;
+}
+.new_acc_btn{
+  background-image:linear-gradient( white 70%,lightgrey);
+  border:1px solid grey;
+  height:30px;
+  font-size: 13px;
+  width:100%;
+}
+.create_new_acc_btn{
+  width:25%;
+}
+.new_acc_btn:hover{
+  background-image:linear-gradient( white ,lightgrey 70%);
+  
+}
+.added{
+  border:3px solid red;
+}
+.copyright{
+  font-size: 11px;
+  color:gray;
+}
